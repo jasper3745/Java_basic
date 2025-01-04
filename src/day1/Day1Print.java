@@ -8,5 +8,6 @@ public class Day1Print {
         System.out.print("중앙중학교\n");
         System.out.println("좋아하는 과목:과학");
         System.out.println("싫어하는 과목:국어");
+        System.out.println("15살");
     }
 }
