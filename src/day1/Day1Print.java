@@ -9,6 +9,6 @@ public class Day1Print {
         System.out.println("좋아하는 과목:과학");
         System.out.println("싫어하는 과목:국어");
         System.out.println("15살");
-        System.out.println("");
+        System.out.println("박\n재\n준\n");
     }
 }
