@@ -26,7 +26,5 @@ public class Day3Practice {
         int num = 3;
         String sNum = "" + num;
         System.out.println(sNum);
-
-
     }
 }
