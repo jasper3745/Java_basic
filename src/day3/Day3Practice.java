@@ -14,7 +14,7 @@ public class Day3Practice {
         System.out.println("세 번째 숫자를 입력하세요: ");
         double n3 = sc.nextInt();
 
-        double num1 = (n1 + n2 + n3)/3;
+        double num1 = (n1 + n2 + n3)/3.0;
         int num2 = (int) num1;
 
         System.out.println("average = " + num1);
