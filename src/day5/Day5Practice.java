@@ -42,6 +42,5 @@ public class Day5Practice {
                 System.out.println(dan + " x " + i + " = " + (dan * i));
             }
         }
-
     }
 }
