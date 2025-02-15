@@ -56,7 +56,7 @@ public class Day6Practice {
 //            t = t + 1;
 //        }
 
-        //괴생명체
+        //괴생명체2
         int i = sc.nextInt();
         char st = '*';
         char sp = ' ';
