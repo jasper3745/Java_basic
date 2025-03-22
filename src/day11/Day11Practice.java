@@ -19,9 +19,12 @@ public class Day11Practice {
         String i = sc.next();
         System.out.println("비밀번호를 입력하세요");
         String p = sc.next();
-        if(i.equals(example.getId()) || p.equals(example.getPassword())) {
+        if(i.equals(example.getId()) && p.equals(example.getPassword())) {
             System.out.println("로그인 성공!");
+            System.out.println("새로운 비밀번호를 입력하세요: ");
+            String newp = sc.next();
+            example.setPassword(newp);
+            System.out.println("[변경 성공] 비밀번호 변경에 성공했습니다!");
         }
-
     }
 }
