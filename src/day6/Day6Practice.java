@@ -40,23 +40,7 @@ public class Day6Practice {
 //            System.out.println();
 //        }
 
-//        System.out.println("삼각형의 높이를 입력하세요: ");
-//        int i = sc.nextInt();
-//        char st = '*';
-//        char sp = ' ';
-//        int t = 0;
-//        for (int n = 1; n <= i; n++) {
-//            for (int x = i - n; x >= 0; x--) {
-//                System.out.print(sp);
-//            }
-//            for (int t1 = 1; t1 <= n + t; t1++) {
-//                System.out.print(st);
-//            }
-//            System.out.println();
-//            t = t + 1;
-//        }
-
-        //괴생명체
+        System.out.println("삼각형의 높이를 입력하세요: ");
         int i = sc.nextInt();
         char st = '*';
         char sp = ' ';
@@ -64,12 +48,28 @@ public class Day6Practice {
         for (int n = 1; n <= i; n++) {
             for (int x = i - n; x >= 0; x--) {
                 System.out.print(sp);
-                for (int t1 = 1; t1 <= n + t; t1++) {
-                    System.out.print(st);
-                }
+            }
+            for (int t1 = 1; t1 <= n + t; t1++) {
+                System.out.print(st);
             }
             System.out.println();
+            t = t + 1;
         }
+
+//        //괴생명체
+//        int i = sc.nextInt();
+//        char st = '*';
+//        char sp = ' ';
+//        int t = 0;
+//        for (int n = 1; n <= i; n++) {
+//            for (int x = i - n; x >= 0; x--) {
+//                System.out.print(sp);
+//                for (int t1 = 1; t1 <= n + t; t1++) {
+//                    System.out.print(st);
+//                }
+//            }
+//            System.out.println();
+//        }
     }
 }
 

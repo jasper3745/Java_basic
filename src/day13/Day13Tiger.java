@@ -7,6 +7,6 @@ public class Day13Tiger extends Day13Animal {
     }
 
     public void hunt() {
-        System.out.println("호랑이가 동물을 사냥합니다!");
+        System.out.println("이(가) 동물을 사냥합니다!");
     }
 }
