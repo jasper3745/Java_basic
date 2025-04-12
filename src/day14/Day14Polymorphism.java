@@ -1,4 +1,4 @@
-package Day14;
+package day14;
 
 import day13.Day13Lion;
 import day13.Day13Penguin;

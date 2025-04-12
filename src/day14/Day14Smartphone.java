@@ -1,4 +1,4 @@
-package Day14;
+package day14;
 
 public class Day14Smartphone extends Day14ElectronicDevice{
 
