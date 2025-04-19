@@ -8,13 +8,13 @@ public class Day16Sprout {
         System.out.println("   `~\\/");
         System.out.println("      |");
         System.out.println("      |");
-        System.out.println(" ___________            _______________  |                      -------");
-        System.out.println("            |                  /\\        |                    /        \\");
-        System.out.println("            |                 /  \\       |                   /          \\");
-        System.out.println("            |                /    \\      |                   \\          /");
-        System.out.println("            |               /      \\     |                    \\________/");
-        System.out.println("_____________                 |                              ______________");
-        System.out.println("      |                       |                                     |");
-        System.out.println("      |                       |___________                          |");
+        System.out.println(" ___________            _______________  |                    -------");
+        System.out.println("            |                  /\\        |                  /        \\");
+        System.out.println("            |                 /  \\       |                 /          \\");
+        System.out.println("            |                /    \\      |                 \\          /");
+        System.out.println("            |               /      \\     |                  \\________/");
+        System.out.println("_____________                 |                            ______________");
+        System.out.println("      |                       |                                   |");
+        System.out.println("      |                       |___________                        |");
     }
 }
